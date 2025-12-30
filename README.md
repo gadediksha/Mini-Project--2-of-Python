@@ -1,10 +1,10 @@
-# Guess the Number Game (Python)
+# 🎯Guess the Number Game (Python)
 
 This is a simple Python console game where the user has to guess a randomly generated number.
 
 ---
 
-## About the Game
+## ✨About the Game
 
 - The program generates a random number between **1 and 100**
 - User keeps guessing the number
@@ -15,7 +15,7 @@ This is a simple Python console game where the user has to guess a randomly gene
 
 ---
 
-## Features
+## 🚀Features
 
 - Random number generation
 - Unlimited guesses
@@ -24,21 +24,21 @@ This is a simple Python console game where the user has to guess a randomly gene
 
 ---
 
-## Technologies Used
+## 🛠️Technologies Used
 
 - Python 3
 - random module
 
 ---
 
-## How to Run
+## 🎮How to Run
 
 1. Make sure Python is installed
 2. Run the file using:
    ```bash
    python guess_number.py
    ```
-## Sample Output   
+## 📸Sample Output   
 Guess the number (1-100) or type Quit: 45
 Too small. Try again.
 
@@ -48,6 +48,6 @@ Too big. Try again.
 Guess the number (1-100) or type Quit: 63
 Success! Correct Guess!!
 ------------ GAME OVER ------------
-## Author 
+## 👩‍💻Author 
 Diksha Gade 
 BCA Student
