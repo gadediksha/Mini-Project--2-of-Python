@@ -2,15 +2,18 @@
 import random
 
 target = random.randint(1,100)
-
+userChoice = -1
+guesses = 0
 while True:
     userChoice = input("Guess the Target or Quit :")
     if(userChoice =="Quit"):
         break
 
     userChoice = int(userChoice)
+    guesses += 1 
+
     if(userChoice == target):
-       print("Success : Correct Guess!!")
+       print(f"Success : You have gussed the number {target} correctly in {guesses} attempts !!")
        break
     elif(userChoice < target):
        print("Your number was too small. Take a bigger guess..")
